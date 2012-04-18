@@ -1,0 +1,116 @@
+/* 
+    Document   : padrao
+    Created on : 17/04/2012, 18:14:08
+    Author     : Fernando
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* Declara a formatação da div cabeçalho*/
+div.cabecalho{
+    position: absolute;
+    background-color: lightgreen;
+    height:130px;
+    width:100%;
+}
+
+div.cabecalho h1{
+    padding: 5px;
+    font-size: 70px;
+    color: white;
+}
+
+div.user{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 60%;
+    color: black;
+}
+
+/* Declara a formatação da div menu*/
+div.menu{
+    position: absolute;
+    background-color: RGB(176,247,182); /*verde claro*/;
+    color: green;
+    margin-top: 130px;
+    margin-left: 0;
+    margin-bottom: 700px;
+    margin-right: 200px;
+    height: 700px;
+    width: 200px;
+}
+
+/* Declara a formatação da lista */
+div.menu ul{
+    list-style: none;
+    border-bottom: 2px solid;
+    padding:0;
+}
+
+/* Declara a formatação de cada linha da lista*/
+div.menu ul li{
+    border: 2px solid;
+    background-color: white;
+    border-bottom: 0;
+}
+div.menu ul a{
+    text-decoration: none;
+    color: green;
+}
+
+div.menu li:hover a{
+    position: relative;
+    display: block;
+    background-color: lightgreen;
+    color: white;
+}
+
+div.menu li ul li{
+    position: relative;
+    display: block;
+    background-color: white;
+    color: green;
+}
+
+div.menu li ul li:hover a{
+    position: relative;
+    display: block;
+    background-color: white;
+    color: green;
+}
+
+div.menu li ul a{
+    position: absolute;
+    display: none;
+}
+
+/* Declara a formatação da div conteudo*/
+div.conteudo{
+    position: absolute;
+    background-color: RGB(176,247,182); /*verde claro*/
+    color: black;
+    margin-top: 130px;
+    margin-left: 202px;
+    margin-bottom: 700px;
+    margin-right: 0;
+    height: 700px;
+    width: 85%;
+}
+
+/* Declara a formatação da div rodape*/
+div.rodape{
+    position: absolute;
+    background-color: lightgreen;
+    color: tan;
+    margin-top:90%;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    height: 10%;
+    width: 100%
+}
